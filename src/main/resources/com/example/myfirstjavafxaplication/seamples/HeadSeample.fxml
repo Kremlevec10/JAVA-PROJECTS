@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="300.0" style="-fx-background-color: #008B8B;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.myfirstjavafxaplication.controllers.HelloController">
+   <children>
+      <AnchorPane layoutY="120.0" prefHeight="281.0" prefWidth="300.0" style="-fx-background-color: #8FBC8F;">
+         <children>
+            <Button fx:id="singUpButton" layoutX="93.0" layoutY="90.0" mnemonicParsing="false" prefHeight="38.0" prefWidth="113.0" text="Sing UP">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+            <Button fx:id="registrationButton" layoutX="93.0" layoutY="33.0" mnemonicParsing="false" text="Registration">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+      <MenuBar layoutY="2.0" prefHeight="26.0" prefWidth="300.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="File">
+            <items>
+              <MenuItem fx:id="closeMenuButton" mnemonicParsing="false" text="Close" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Help">
+            <items>
+              <MenuItem fx:id="aboutMenuButton" mnemonicParsing="false" text="About"/>
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <Label layoutX="52.0" layoutY="56.0" text="Welcom to MyAPP">
+         <font>
+            <Font name="Bodoni MT" size="24.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
